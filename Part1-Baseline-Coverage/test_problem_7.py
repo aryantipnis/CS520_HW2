@@ -1,0 +1,63 @@
+from Problem_7 import solution1
+
+def test_simple_cases():
+    assert solution1(2, 4) == 2
+    assert solution1(6, 8) == 6
+    assert solution1(1, 2) == 2
+    assert solution1(1, 8) == 0
+    assert solution1(2, 7) == 0
+    assert solution1(5, 7) == 2
+    assert solution1(7, 6) == 1
+    assert solution1(7, 9) == 2
+    assert solution1(4, 1) == 1
+    assert solution1(6, 6) == 1
+    assert solution1(4, 7) == 0
+    assert solution1(3, 2) == 1
+    assert solution1(6, 7) == 7
+    assert solution1(6, 9) == 4
+    assert solution1(6, 2) == 1
+    assert solution1(2, 9) == 0
+    assert solution1(6, 4) == 1
+    assert solution1(2, 1) == 1
+    assert solution1(4, 3) == 1
+    assert solution1(5, 5) == 1
+    assert solution1(7, 8) == 8
+    assert solution1(1, 5) == 0
+    assert solution1(8, 10) == 0
+    assert solution1(11, 3) == 1
+    assert solution1(3, 4) == 4
+    assert solution1(11, 6) == 1
+    assert solution1(5, 11) == 0
+    assert solution1(10, 13) == 6
+    assert solution1(1, 12) == 0
+    assert solution1(4, 9) == 0
+    assert solution1(3, 13) == 0
+    assert solution1(4, 12) == 0
+    assert solution1(11, 7) == 1
+    assert solution1(9, 4) == 1
+    assert solution1(8, 13) == 0
+    assert solution1(3, 9) == 0
+    assert solution1(9, 13) == 0
+    assert solution1(8, 7) == 1
+    assert solution1(6, 11) == 0
+    assert solution1(7, 10) == 0
+    assert solution1(9, 11) == 0
+    assert solution1(4, 10) == 0
+    assert solution1(6, 10) == 0
+    assert solution1(8, 11) == 0
+    assert solution1(5, 4) == 1
+    assert solution1(3, 7) == 0
+    assert solution1(1, 7) == 0
+    assert solution1(5, 3) == 1
+    assert solution1(5, 6) == 6
+    assert solution1(3, 5) == 0
+    assert solution1(4, 2) == 1
+    assert solution1(4, 4) == 1
+    assert solution1(4, 6) == 0
+    assert solution1(1, 6) == 0
+    assert solution1(2, 6) == 0
+
+    # Additional provided cases
+    assert solution1(3, 7) == 0
+    assert solution1(20, 23) == 6
+    assert solution1(1021, 1024) == 4
